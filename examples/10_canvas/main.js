@@ -6,6 +6,7 @@ canvas.height = 600
 canvas.style.border = '1px solid black'
 
 container.appendChild(canvas)
+
 const ctx = canvas.getContext('2d')
 
 const drawCircle = (x, y, radius, color, opacity = 0.5) => {
